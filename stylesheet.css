@@ -24,9 +24,20 @@ div.banner{
 .triangle{
     width: 0;
     height: 0;
-    border: solid 30px;
-    border-color: red transparent transparent  transparent;
+    border: solid 130px;
+    border-color: white transparent transparent  transparent;
     
+}
+
+.scroll-box {
+    background: blue;
+    border: 2px solid white;
+    height: 10cm;
+    padding: 1cm;
+    overflow-y: scroll, display: hidden;
+}
+.example::-webkit-scrollbar {
+    display: none;
 }
 div.rowheight{
     display: grid;
@@ -58,8 +69,11 @@ h4{
 
 .hide{
     display:none;
+
 }
 .hover:hover + .hide{
     display: block;
     color: white;
+    padding-top: 15px;
+    font-size: larger;
 }
