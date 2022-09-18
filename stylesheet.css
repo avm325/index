@@ -1,0 +1,18 @@
+div.banner{
+    padding-top: 2cm;
+}
+
+h1{
+    font-family: bd-brick, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    background-color: blue;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border: solid 30px;
+    border-color: transparent transparent red transparent;
+}
