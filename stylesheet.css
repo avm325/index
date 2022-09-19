@@ -16,29 +16,31 @@ body{
 }
 
 div.banner{
-    padding-bottom: 1cm;
+    padding:3cm;
     text-align: center;
-    background-color: blue;
+    background-image: linear-gradient(blue, #020053);
+    gap:14px
 }
 
-.triangle{
-    width: 0;
-    height: 0;
-    border: solid 130px;
-    border-color: white transparent transparent  transparent;
-    
-}
 
 .scroll-box {
-    background: blue;
-    border: 2px solid white;
-    height: 10cm;
-    padding: 1cm;
-    overflow-y: scroll, display: hidden;
+    background: #0300A2;
+    height: 5cm;
+    width: 8cm;
+    padding: 1.5cm;
+    overflow-y: scroll;
+    display: hidden;
+    line-height: 30px;
 }
-.example::-webkit-scrollbar {
-    display: none;
+
+element::-webkit-scrollbar {
+    display: none; 
 }
+
+div.gallery{
+    padding: 2cm;
+}
+
 div.rowheight{
     display: grid;
     grid-template-rows: 600px 300px;
@@ -55,6 +57,10 @@ h1{
     font-style: normal;
     text-align: center;
     padding: 1cm;
+}
+h2{
+    line-height: 4cm;
+    word-spacing: 15px;
 }
 h4{
     background: #1D1ACA;
@@ -76,4 +82,11 @@ h4{
     color: white;
     padding-top: 15px;
     font-size: larger;
+}
+
+div.fade{}
+
+footer{
+    padding: 2cm;
+    background-image: linear-gradient(#020053,blue);
 }
