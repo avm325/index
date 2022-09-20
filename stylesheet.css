@@ -15,12 +15,17 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
-table{
+table,td{
     margin: 0 auto;
+    line-height: 1cm;
+}
+
+div.willname{
+    padding-bottom: -2cm;
 }
 div.banner{
-    padding-top:6.5cm;
-    padding-bottom: 9cm;
+    padding-top:6cm;
+    padding-bottom: 7cm;
     text-align:justify center;
     background-image: linear-gradient(blue, #020053);
     position: relative;
@@ -95,7 +100,8 @@ h1{
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    padding: 3cm;
+    padding-top: 3cm;
+    padding-bottom: 4cm;
 }
 h2{
     line-height: 4cm;
