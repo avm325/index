@@ -20,10 +20,11 @@ table{
 }
 div.banner{
     padding-top:5cm;
+    padding-bottom: 3cm;
     text-align:justify center;
     background-image: linear-gradient(blue, #020053);
     position: relative;
-    gap:14px
+    gap:10px;
     
 }
 
