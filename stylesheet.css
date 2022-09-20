@@ -13,14 +13,16 @@ body{
     color: white;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 div.banner{
     padding-top:5cm;
-    text-align: center;
+    text-align:justify center;
     background-image: linear-gradient(blue, #020053);
     position: relative;
     gap:14px
+    
 }
 
 
@@ -66,7 +68,8 @@ div.banner{
     padding: 1.5cm;
     overflow-y: scroll;
     display: hidden;
-    line-height: 60px;
+    line-height: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .scroll-box::-webkit-scrollbar {
@@ -75,7 +78,7 @@ div.banner{
 div.gallery{
     padding: 2cm;
     font-size: .85cm;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: lores-12,sans-serif;
     font-weight: 375;
     font-style: normal;
 }
