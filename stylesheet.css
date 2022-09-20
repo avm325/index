@@ -16,10 +16,20 @@ body{
 }
 
 div.banner{
-    padding:3cm;
+    padding-top:10cm;
     text-align: center;
     background-image: linear-gradient(blue, #020053);
     gap:14px
+}
+
+section{
+    display: flex;
+}
+
+.scrolldown{
+    height: 80px;
+    width: 50px;
+    border: 30px solid;
 }
 
 .scroll-box {
