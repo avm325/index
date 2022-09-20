@@ -22,9 +22,6 @@ div.banner{
     gap:14px
 }
 
-section{
-    display: flex;
-}
 
 .scrolldown{
     height: 80px;
@@ -33,7 +30,7 @@ section{
     border-radius: 50px;
     position:absolute;
     left: 50%;
-    bottom: 40px;
+    bottom: 0px;
     cursor: pointer;
 }
 .scrolldown::before
@@ -54,7 +51,6 @@ section{
    top:30%;
    animation-delay:.3s;
 }
-
 @keyframes scrolldown{
     0%{opacity: 0;}
     30%{opacity: 1;}
