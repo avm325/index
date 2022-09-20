@@ -93,7 +93,10 @@ div.rowheight{
 div.funthings{
     text-align: center;
     background: linear-gradient(#020053,#0300A2, #020053);
-    padding: 1cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
     
 }
 h1{
