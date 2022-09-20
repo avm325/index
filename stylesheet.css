@@ -60,8 +60,8 @@ div.banner{
 
 .scroll-box {
     background: #0300A2;
-    height: 5cm;
-    width: 8cm;
+    height: 8cm;
+    width: 14cm;
     padding: 1.5cm;
     overflow-y: scroll;
     display: hidden;
