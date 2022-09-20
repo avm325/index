@@ -29,33 +29,23 @@ div.banner{
 }
 
 .scrolldown{
-    height: 92px;
-    width: 90px;
-    border: 10px solid white;
-    border-radius: 50px;
-    position:absolute;
-    left: 50%;
-    bottom: 0px;
+    padding: .25cm;
     cursor: pointer;
-}
-.scrolldown::before
-.scrolldown::after{
     content: '';
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 50%;
-    border: 4px solid white; 
-    height: 30px;
-    width: 30px;
-    transform: translate(-50%,-100%) rotate(45deg);
+    border: 20px solid greenyellow; 
+    height: 70px;
+    width: 70px;
+    transform: translate(-50%,-90%) rotate(45deg);
     border-top: transparent;
     border-left: transparent;
-    animation: scrolldown 1s ease-in-out infinite;
+    animation: scrolldown 2s ease-in-out infinite;
+    top:84%;
+   animation-delay:.5s;
 } 
-.scrolldown::after{
-   top:30%;
-   animation-delay:.4s;
-}
+
 @keyframes scrolldown{
     0%{opacity: 0;}
     30%{opacity: 1;}
@@ -84,6 +74,7 @@ div.gallery{
     font-family: lores-12,sans-serif;
     font-weight: 375;
     font-style: normal;
+    text-align: center;
 }
 
 div.rowheight{
