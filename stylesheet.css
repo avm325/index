@@ -19,7 +19,7 @@ table{
     margin: 0 auto;
 }
 div.banner{
-    padding-top:5cm;
+    padding-top:6.5cm;
     padding-bottom: 3cm;
     text-align:justify center;
     background-image: linear-gradient(blue, #020053);
@@ -27,7 +27,6 @@ div.banner{
     gap:10px;
     
 }
-
 
 .scrolldown{
     height: 92px;
