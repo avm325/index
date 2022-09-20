@@ -67,11 +67,12 @@ div.banner{
     background: #0300A2;
     height: 8cm;
     width: 14cm;
-    padding: 1.5cm;
+    padding: 2.5cm;
     overflow-y: scroll;
     display: hidden;
     line-height: 45px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     
 }
 .scroll-box::-webkit-scrollbar {
