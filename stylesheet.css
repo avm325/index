@@ -20,7 +20,7 @@ table{
 }
 div.banner{
     padding-top:6.5cm;
-    padding-bottom: 3cm;
+    padding-bottom: 9cm;
     text-align:justify center;
     background-image: linear-gradient(blue, #020053);
     position: relative;
@@ -54,10 +54,10 @@ div.banner{
 }
 
 .scroll-box {
-    background: #0300A2;
-    height: 8cm;
+    background: linear-gradient(blue,#020053);
+    height: 10cm;
     width: 14cm;
-    padding: 2.5cm;
+    padding: 4cm;
     overflow-y: scroll;
     display: hidden;
     line-height: 45px;
