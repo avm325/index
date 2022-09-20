@@ -141,8 +141,8 @@ a{
     color: greenyellow;
 }
 div.bio{
-    padding-left:5cm;
-    padding-right: 5cm;
+    padding-left:8cm;
+    padding-right: 8cm;
     text-align: center;
 }
 footer{
@@ -153,5 +153,6 @@ footer{
     font-weight: 375;
     font-style: normal;
     font-size: .75cm;
+
     
 }
