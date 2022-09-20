@@ -97,6 +97,10 @@ h1{
 h2{
     line-height: 4cm;
     word-spacing: 15px;
+    font-size: 1cm;
+    font-family: lores-12,sans-serif;
+    font-weight: 375;
+    font-style: normal;
 }
 h4{
     background: #1D1ACA;
@@ -121,8 +125,15 @@ h4{
     padding-top: 15px;
     font-size: larger;
 }
-
+a{
+    color: greenyellow;
+}
 footer{
-    padding: 5cm;
+    padding: 3cm;
     background-image: linear-gradient(#020053,blue);
+    font-family: lores-12,sans-serif;
+    font-weight: 375;
+    font-style: normal;
+    font-size: .75cm;
+    
 }
