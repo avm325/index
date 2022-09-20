@@ -16,9 +16,10 @@ body{
 }
 
 div.banner{
-    padding-top:10cm;
+    padding-top:5cm;
     text-align: center;
     background-image: linear-gradient(blue, #020053);
+    position: relative;
     gap:14px
 }
 
@@ -123,6 +124,6 @@ h4{
 
 
 footer{
-    padding: 2cm;
+    padding: 5cm;
     background-image: linear-gradient(#020053,blue);
 }
