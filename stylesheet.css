@@ -69,9 +69,8 @@ div.banner{
     line-height: 30px;
     
 }
-
 .scroll-box::-webkit-scrollbar {
-    display: none;
+    display: none;}
 
 div.gallery{
     padding: 2cm;
@@ -92,12 +91,12 @@ h1{
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    padding: 1cm;
+    padding: 3cm;
 }
 h2{
     line-height: 4cm;
     word-spacing: 15px;
-    font-size: 1cm;
+    font-size: 1.5cm;
     font-family: lores-12,sans-serif;
     font-weight: 375;
     font-style: normal;
