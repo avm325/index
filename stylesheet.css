@@ -101,7 +101,8 @@ h2{
 h4{
     background: #1D1ACA;
     border-radius: 50px;
-    border-width: thick;
+    border: 1cm #1D1ACA solid;
+    border-width: 40px;
     position: relative;
     font-family: lores-12,sans-serif;
     font-weight: 375;
@@ -120,8 +121,6 @@ h4{
     padding-top: 15px;
     font-size: larger;
 }
-
-
 
 footer{
     padding: 5cm;
