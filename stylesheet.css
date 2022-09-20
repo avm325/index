@@ -13,7 +13,6 @@ body{
     color: white;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 4cm;
 }
 
 div.banner{
@@ -68,11 +67,11 @@ div.banner{
     overflow-y: scroll;
     display: hidden;
     line-height: 30px;
+    
 }
 
-element::-webkit-scrollbar {
-    display: none; 
-}
+.scroll-box::-webkit-scrollbar {
+    display: none;
 
 div.gallery{
     padding: 2cm;
@@ -114,7 +113,6 @@ h4{
     font-style: normal;
     font-size: .75cm;
 }
-
 
 .hide{
     display:none;
