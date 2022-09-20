@@ -144,6 +144,8 @@ div.bio{
     padding-left:9cm;
     padding-right: 9cm;
     text-align: center;
+    font-size: .67cm;
+    line-height: 1.2cm;
 }
 footer{
     padding-top: 6cm;
